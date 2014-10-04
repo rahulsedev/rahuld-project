@@ -1,0 +1,124 @@
+html, body{height: 100%; -webkit-font-smoothing: subpixel-antialiased !important; -moz-osx-font-smoothing: grayscale !important; text-shadow: 0.9px 0px 0px rgba(0,0,0,0.1) !important;
+text-stroke: 0.35px !important; -webkit-text-stroke-width: 0.0px; font-family: 'Lato', sans-serif !important;}
+label.error {color: #b94a48; font-size: 11px; left: 0; display: none !important;}
+label.valid {width: 24px; height: 24px; right:4px; top:5px; display: none;}
+.has-error .form-control {border-top-right-radius: 4px !important; border-bottom-right-radius: 4px !important; border-color: #a94442 !important; box-shadow: 0px 0px 5px 0px #a94442;}
+.has-error .selectpicker {border-top-right-radius: 4px !important; border-bottom-right-radius: 4px !important; border-color: #a94442 !important; box-shadow: 0px 0px 5px 0px #a94442;}
+.carousel-inner > .item img{margin: 0 auto;}
+.form-control{padding: 0px 6px;}
+#dashboard-web .typeahead {min-width: 83%;} 
+.table > tbody > tr > td .btn-group.open .dropdown-toggle{box-shadow: none; -webkit-box-shadow: none; }
+.table > tbody > tr > td .bootstrap-select .btn:active{box-shadow: none; -webkit-box-shadow: none; }
+.table > tbody > tr > td .bootstrap-select .btn:focus{outline: none !important;}
+.table > tbody > tr > td .dropdown-toggle.btn-default{background-color: transparent; border-color: transparent; color: #445666;; font-weight: 400;} 
+.table > tbody > tr > td .dropdown-toggle.btn-default:hover{background-color: transparent; border-color: transparent;}
+.caret {border-top: 5px solid; border-right: 5px solid transparent; border-left: 5px solid transparent;}
+
+/** header-start **/     
+.padding {padding-left: 0px; padding-right: 0px;}
+#alpha .header {background-color: #093e66; height: 90px;}
+#alpha .header .logo {padding-top: 24px; /*padding-left: 111px;*/}
+#alpha .header .btn-login {margin-right: 137px; margin-top: 41px; cursor: pointer;}
+#alpha .header .login-text {margin-left: 17px; margin-top: -20px; color: #445666; font: 900 14px 'lato'; letter-spacing: 0.5px;}
+#alpha .header .alpha-login, #alpha .header .email-address {background: url("../img/spalsh-split.png") repeat-x;  height: 90px; margin-right: -226px; margin-top: -24px; width: 362px;}
+#alpha .header .alpha-login{display: none;}
+#alpha .alpha-login .col-xs-5, #alpha .alpha-login .col-xs-2, #alpha .email-address .col-xs-2 {padding-left: 0px; padding-right: 0px;}
+#alpha .alpha-login .padding-left {padding-left: 15px !important;}
+#alpha .alpha-login .form-group, #alpha .email-address .form-group {margin-top: 10px;}
+#alpha .alpha-login .username, #alpha .alpha-login .password, #alpha .email-address .username, #alpha .email-address .password {font: 500 12px 'Lato'; color: #7E96AC; letter-spacing: 0.5px;}
+#alpha .alpha-login .password-form {padding-left: 9px; padding-right: 9px; }
+#alpha .alpha-login .form-control, #alpha .email-address .form-control {height: 27px; border: 1px solid #AAB9C6;}
+#alpha .alpha-login .login-incorrect {color: red; font-size: 12px; text-shadow: none; /*letter-spacing: 0.4px;*/ font-weight: 400;}
+#alpha .alpha-login .btn-go, #alpha .email-address .btn-go {color: #333; font-size: 14px; padding: 1px 12px;  margin-top: 34px; text-shadow: 0 -1px 0 #333333, 0 -1px 0 #666666, 
+            0 1px 0 #FFD012;  box-shadow: 0 1px 3px 1px #98A4AE; background: -webkit-linear-gradient(center top , #9E9E9E, #454545) repeat scroll 0 0 transparent;   
+  background-image: -webkit-linear-gradient(#FFAA00 0%, #FF8C00 100%); 
+  background-image: -moz-linear-gradient(#FFAA00 0%, #FF8C00 100%); 
+  background-image: -ms-linear-gradient(#FFAA00 0%, #FF8C00 100%); 
+  background-image: -o-linear-gradient(#FFAA00 0%, #FF8C00 100%); 
+  background-image: linear-gradient(#FFAA00 0%, #FF8C00 100%);
+}
+#alpha .email-address .col-xs-10 {padding-right: 13px;}
+#alpha .email-address, .client-details{display: none;}
+#alpha .logo-margin img {margin: 0 90px;}
+/** header-end **/
+
+/** main-content start **/
+#index-page .col-xs-4{padding-bottom: 0px;}
+#index-page .prettycheckbox label, #index-page .prettyradio label{margin: 5px 36px; font-weight: 400;}
+#index-page .caret{
+    border-style: solid solid none;
+    border-width: 5px 5px 0;
+    color: #A6B7C7;
+}
+#alpha .main-content {background: url("../img/body.png") repeat-x;}
+/** left-panel start **/
+/*#alpha .left-panel {margin-left: 28px;}*/
+#alpha .main-content .left-heading {margin-top: 20px;}
+#alpha .left-panel .left-heading {color: #445666; font: normal 700 30px 'lato'; letter-spacing: 1px; margin-bottom: 3px; text-shadow: 0px -1px #000, -1px 1px #a5aaaf;}
+#alpha .left-heading .lead-gen {margin-right: 13px;  margin-bottom: 0px;}
+#alpha .left-heading p {margin: 0px;}
+#alpha .left-heading .analisis {margin-bottom: 0px; margin-left: 3px;}
+#alpha .left-heading .return {margin-right: 2px;}
+#alpha .watch-video a{font: italic 400 14px lato; color: #7e96ac; text-decoration: none; letter-spacing: 0.2px;}
+#alpha .left-panel .pc {margin-top: -13px; background: url("../img/pc.png") no-repeat; height: 445px; width: 538px;}
+/** left-panel end **/
+
+/** right-panel start **/
+#alpha .main-content .right-panel {margin-left: 42px;}
+#alpha .right-panel .heading {font: normal 900 18px 'Lato'; color: #7e96ac; margin-bottom: 5px; letter-spacing: 1px; text-stroke: 0.35px !important; -webkit-text-stroke-width: 0px;}
+#alpha .right-panel .input-height {height: 25px; width: 99%; border: 1px solid #AAB9C6;}
+#alpha .input-select {height: 25px; width: 99%; margin-bottom: 3px;}
+#alpha .right-panel .login-form {padding-left: 10px; padding-right: 0px;}
+#alpha .right-panel .form-bottom {margin-bottom: 3px;}
+#alpha .right-panel .input-name {font: 500 11px 'Lato'; color: #7e96ac;  margin-bottom: 4px;  letter-spacing: 0.5px;}
+#alpha .right-panel .Nationwide {margin: 4px 0px 3px 12px;}
+#alpha .right-panel .radiobtn {margin-left: 10px !important; margin-right: 6px; vertical-align: text-bottom;}
+#alpha .main-content .check-btn {
+	font: normal 700 24px 'lato';
+        color: #445666;
+        margin-top: 5px;
+        padding: 9.5px 30.5px;
+        text-stroke: 0.35px !important; -webkit-text-stroke-width: 0px;
+        text-shadow: 0 -1px 0 #333333, 0 -1px 0 #666666,0 1px 0 #ffd012;
+        box-shadow: 0px 1px 3px 1px #98a4ae;
+        margin-left: 13px;
+        letter-spacing: 1px;
+        background-image: -webkit-linear-gradient(#ffaa00 0%,#ff8c00 100%); 
+        background-image: -moz-linear-gradient(#ffaa00 0%,#ff8c00 100%); 
+        background-image: -ms-linear-gradient(#ffaa00 0%,#ff8c00 100%); 
+        background-image: -o-linear-gradient(#ffaa00 0%,#ff8c00 100%); 
+        background-image: linear-gradient(#ffaa00 0%,#ff8c00 100%);
+}
+/** footer start **/
+#alpha .main-content .footer {margin-top: 8px;}
+#alpha .main-content .footer {margin-left: 65px;}
+#alpha .footer ul>li {padding-left: 58px; line-height: 1; font: 400 18px 'lato'; text-decoration: none; color: #899eb2; background: url("../img/logo1.png") no-repeat; list-style: none; padding-bottom: 29px;}
+/** footer start **/
+/** main-content end **/
+
+/** splash start **/
+#alpha .splash-body {height: 382px;}
+#alpha .main-content .splash {margin-left: 0px;}
+#alpha .main-content .splash-pc {margin-top: 3px;}
+#alpha .main-content .splash-description {font: 400 14px lato; color: #445666; text-align: center;}
+#alpha .selectpicker {border-color: #AAB9C6; color: #7E96AC; font-size: 12px; padding: 3.5px 6px; width: 100%;}
+#alpha .selectpicker .caret{position: absolute; right: 7px;}
+.prettyradio.blue a {background: url("../img/checkbox/prettyCheckable-gray.png") no-repeat 1px -122px; margin-right: 5px;}
+.prettyradio.blue a:focus {background-position: -1px -182px;}
+.prettyradio.blue2 {vertical-align: middle;}
+/** splash start **/
+
+/** prettycheckbox start **/
+.prettycheckbox.blue a {background: url(../img/checkbox/prettyCheckable-gray.png) no-repeat 0px 0px; margin: -7px;}
+.prettycheckbox.blue a.checked {background-position: 0 -60px;}
+.prettycheckbox label, .prettyradio label {float: none !important;}
+.prettycheckbox a, .prettyradio a {height: 26px !important;}
+/** prettycheckbox end **/
+
+
+
+
+
+#delModal, #delMsgModal, #EditMsgModal{top: 25%; overflow: hidden;}
+#delModal .modal-footer, #delMsgModal .modal-footer, #EditMsgModal .modal-footer{padding: 10px 20px 10px;}
+#deleteModal .modal-dialog, #delMsgModal .modal-dialog, #EditMsgModal .modal-dialog{width: 335px;}

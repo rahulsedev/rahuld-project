@@ -1,0 +1,56 @@
+<?php echo $this->Html->css('jquery.bxslider');?>
+<?php echo $this->Html->script('jquery.bxslider.min');?>
+<script>
+    $(document).ready(function(){
+	$('.bxslider').bxSlider({
+	  auto: true,
+	  autoControls: true	
+	});
+    });
+</script>
+<div class="slider_bg" style="margin-left: 17%; width: 66%;">
+    <div class="wrap">
+     <div class="slider">
+					<ul class="bxslider">
+						<li><img src="<?php echo Router::url('/', true).'/img/slider/1.jpg'?>" width="780px" /></li>
+						<li><img src="<?php echo Router::url('/', true).'/img/slider/2.jpg'?>" width="780px" /></li>
+						<li><img src="<?php echo Router::url('/', true).'/img/slider/3.jpg'?>" width="780px" /></li>
+					</ul>
+	  </div>
+    </div>
+</div>
+<div class="main_text">
+	<h2>Featured Products</h2>
+</div>
+<!-- start main_bg -->
+<div class="main_bg" style="background-color: #EBF4F0;">
+    <div class="wrap">
+            <div class="main content_top">
+                    <!-- start span_of_3 -->
+                    <div class="span_of_3">
+                            <div class="span1_of_3">
+                                    <a href="#"><?php echo $this->Html->image('products/10.jpg');?></a>
+                                    <div class="span1_of_3_text">
+                                        <h3><a href="#">Arjuna Amla Juice</a></h3>
+                                        <p>Dosage :- 20-30 ml twice daily, empty stomach (6 Am & 6 PM) with equal water</p>
+                                    </div>
+                            </div>
+                            <div class="span1_of_3">
+                                    <a href="#"><?php echo $this->Html->image('products/4.jpg');?></a>
+                                    <div class="span1_of_3_text">
+                                            <h3><a href="#">Giloy Juice</a></h3>
+                                            <p>Giloy has recently become quite popular when it was said that it can cure swine flu.</p>
+                                    </div>
+                            </div>
+                            <div class="span1_of_3">
+                                    <a href="#"><?php echo $this->Html->image('products/9.jpg');?></a>
+                                    <div class="span1_of_3_text">
+                                            <h3><a href="#">Wheatgrass Juice</a></h3>
+                                            <p>TD Wheatgrass is nutrient-rich and is part of the wheat family. </p>
+                                    </div>
+                            </div>
+                            <div class="clear"></div>
+                    </div>
+            </div>
+    </div>
+</div>
