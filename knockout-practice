@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Employee Attendence Register</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <script src="jquery.min.js"></script>
+      <script src="knockout-3.3.0.js"></script>
+      <script src="bootstrap.min.js"></script>
+      <script src="bootstrap-datepicker.js"></script>
+      <link rel="stylesheet" href="datepicker.css" />      
+   </head>
+   <body>
+    <br>
+      <div class="">
+         <div class="user-btn">
+            <div class="panel panel-default table-margin">
+               <div class="panel-heading">
+                  <div class="pull-left panel-title text-user"><i class="glyphicon glyphicon-user"></i> Employee Attendence Register</div>
+                  <div class="pull-right">
+                    <input type="text" id="datep" data-provide="datepicker" data-date-format="dd/mm/yyyy" maxlength="100" class="datepicker search form-control" placeholder="" name="datep">
+                  </div>                  
+                  <div class="clearfix"></div>
+               </div>
+               <div class="panel-body">
+                  <div class="">
+                     <table class="table table-bordered table-striped">
+                        <thead>
+                           <tr>
+                              <th class="table-serial">#</th>
+                              <th><a href="#">Employee ID</a></th>
+                              <th><a href="#">Name</a></th>
+                              <th class="table-action-205">Is Present</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>1</td>
+                              <td>4000</td>
+                              <td>Rahul dhiman</td>
+                              <td>
+                                <input type="checkbox" name="is_present" value="4000" data-bind="event: { click: employeeEntry.bind($data, '4000') }"/> 
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>2</td>
+                              <td>40002</td>
+                              <td>Rohan jagde</td>
+                              <td>
+                                 <input type="checkbox" name="is_present" value="4002" data-bind="event: { click: employeeEntry.bind($data, '4002') }"/>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>3</td>
+                              <td>40003</td>
+                              <td>Vishal singh</td>
+                              <td>
+                                 <input type="checkbox" name="is_present" value="4003" data-bind="event: { click: employeeEntry.bind($data, '4003') }"/>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                    <div class="modal-footer">
+                        <button style="margin-right: 49%" class="btn btn-primary" id="singlebutton" type="submit">Submit</button>
+                    </div>                     
+                  </div>
+               </div>
+            </div>
+            <!-- panel-body end -->
+         </div>
+      </div>
+   </body>
+</html>
+<script>
+$('.datepicker').datepicker({
+  format: 'dd/mm/yyyy',
+  setDate: new Date(),
+  autoclose: true
+});  
+var dateobj= new Date() 
+var month = dateobj.getMonth() 
+var day = dateobj.getDate()
+var year = dateobj.getFullYear()
+$('.datepicker').val(day + "/" + (month+1) + "/" + year);  
+</script>
+
+<script type="text/javascript">
+  var pushEmployeeStatus = {
+      employeeEntry: function(data, event) {
+          //console.log(data);
+      }
+  };
+  ko.applyBindings(pushEmployeeStatus);
+</script>
